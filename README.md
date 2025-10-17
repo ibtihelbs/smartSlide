@@ -35,7 +35,7 @@ SmartSlide lets you focus on content while handling all the design work:
 
 - **Framework:** Next.js 14
 - **Styling:** Tailwind CSS
-- **Email Collection:** [Resend/ConvertKit/Your choice]
+- **Email Collection:** Resend
 - **Deployment:** render
 
 ## 🏃‍♂️ Getting Started
@@ -49,7 +49,7 @@ SmartSlide lets you focus on content while handling all the design work:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/smartslide.git
+git clone https://github.com/ibtihelbs/smartslide.git
 
 # Navigate to project directory
 cd smartslide
@@ -73,17 +73,15 @@ smartslide/
 ├── app/
 │   ├── page.tsx          # Landing page
 │   ├── layout.tsx        # Root layout
-│   └── api/              # API routes
-├── components/
-│   ├── Hero.tsx
-│   ├── Features.tsx
-│   ├── HowItWorks.tsx
-│   └── WaitlistForm.tsx
-├── lib/
-│   └── utils.ts
+│   |── api/              # API routes
+    ├── components/
+│        ├── Hero.tsx
+│        ├── Features.tsx
+│        ├── HowItWorks.tsx
+│        └── WaitlistForm.tsx
 ├── public/
-│   └── assets/
-└── styles/
+│   └── images/
+
 ```
 
 ## 🔧 Environment Variables
